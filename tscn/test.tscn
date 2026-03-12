@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://f0d5c1mbjh13"]
 
 [ext_resource type="Texture2D" uid="uid://dj3lg6ngt6ruq" path="res://icon.svg" id="1_5jxjy"]
-[ext_resource type="Script" uid="uid://br4188bgs7bad" path="res://gd/character_body_2d.gd" id="2_j3pou"]
+[ext_resource type="Script" uid="uid://br4188bgs7bad" path="res://gd/test.gd" id="2_j3pou"]
 
 [sub_resource type="GDScript" id="GDScript_j3pou"]
 script/source = "extends Node2D

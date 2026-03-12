@@ -1,5 +1,7 @@
 extends CharacterBody2D
 
+var wall:PackedScene=preload("res://tscn/wall.tscn");
+
 var move_speed:int=30000;
 
 func _physics_process(delta: float) -> void:
@@ -16,3 +18,8 @@ func _physics_process(delta: float) -> void:
 		velocity.y = -move_speed * delta;
 		
 	move_and_slide();
+
+func _ready() -> void:
+	var new_wall=wall.instantiate();
+	
+	new_wall.init_wall(600,400,120,50);

@@ -1,11 +1,14 @@
 [gd_scene format=3 uid="uid://f5m4hnhw8vu1"]
 
+[ext_resource type="Script" uid="uid://c7ee2ysv2it3r" path="res://gd/wall.gd" id="1_7fghf"]
 [ext_resource type="Texture2D" uid="uid://uawbxajarai4" path="res://pictures/black_rectangle.png" id="1_xt27s"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7fghf"]
 size = Vector2(97, 99)
 
 [node name="wall" type="RigidBody2D" unique_id=1622112759]
+freeze = true
+script = ExtResource("1_7fghf")
 
 [node name="collision" type="CollisionShape2D" parent="." unique_id=2116097317]
 position = Vector2(0.5, 0.5)

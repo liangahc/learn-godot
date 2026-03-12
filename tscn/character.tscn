@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://eygs7hdlk5en"]
+
+[ext_resource type="Script" uid="uid://cclmrdf7xuakr" path="res://gd/move_controller.gd" id="1_5s5sl"]
+[ext_resource type="Texture2D" uid="uid://dj3lg6ngt6ruq" path="res://icon.svg" id="1_78ula"]
+
+[node name="character" type="Node2D" unique_id=844134902]
+
+[node name="texture" type="Sprite2D" parent="." unique_id=396001646]
+texture = ExtResource("1_78ula")
+
+[node name="move_controller" type="Node2D" parent="." unique_id=1096351414]
+script = ExtResource("1_5s5sl")

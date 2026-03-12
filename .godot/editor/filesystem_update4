@@ -1,0 +1,5 @@
+res://gd/move_controller.gd
+res://tscn/character.tscn
+res://tscn/test.tscn
+res://gd/character_body_2d.gd
+res://tscn/wall.tscn

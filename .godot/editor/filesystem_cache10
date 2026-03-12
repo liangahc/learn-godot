@@ -1,0 +1,13 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1773320545
+icon.svg::CompressedTexture2D::7849444471224682404::1773062935::1773062940::1::::<><><>0<>0<>c8d4e08ecc83b1695569e21150352e13<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://gd/::1773320127
+move_controller.gd::GDScript::4936686339146033461::1773151039::0::1::::<>Node2D<><>0<>0<><>::
+character_body_2d.gd::GDScript::3641137288531459367::1773320127::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://learn_godot/::1773320187
+README.md::TextFile::-1::1773320187::0::1::::<><><>0<>0<><>::
+::res://pictures/::1773320614
+black_rectangle.png::CompressedTexture2D::1405115640842055381::1773320601::1773320615::1::::<><><>0<>0<>02028aeecf6bf4a8358205cf77fd6c05<>res://.godot/imported/black_rectangle.png-e850a993c5d838559767e82e1dd84011.ctex::
+::res://tscn/::1773320127
+character.tscn::PackedScene::330698578608720429::1773150327::0::1::::<><><>0<>0<><>::uid://cclmrdf7xuakr::::res://gd/move_controller.gd<>uid://dj3lg6ngt6ruq::::res://icon.svg
+test.tscn::PackedScene::402789532595641860::1773320127::0::1::::<><><>0<>0<><>::uid://dj3lg6ngt6ruq::::res://icon.svg<>uid://br4188bgs7bad::::res://gd/character_body_2d.gd

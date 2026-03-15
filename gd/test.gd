@@ -22,4 +22,8 @@ func _physics_process(delta: float) -> void:
 func _ready() -> void:
 	var new_wall=wall.instantiate();
 	
-	new_wall.init_wall(600,400,120,50);
+	await get_tree().process_frame;
+	
+	get_tree().root.add_child(new_wall);
+	
+	new_wall.init_wall(600,400,220,150);

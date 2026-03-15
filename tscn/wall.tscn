@@ -6,8 +6,7 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7fghf"]
 size = Vector2(97, 99)
 
-[node name="wall" type="RigidBody2D" unique_id=1622112759]
-freeze = true
+[node name="wall" type="StaticBody2D" unique_id=1324901460]
 script = ExtResource("1_7fghf")
 
 [node name="collision" type="CollisionShape2D" parent="." unique_id=2116097317]

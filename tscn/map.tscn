@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://dukf4fwd8quvj"]
+
+[ext_resource type="PackedScene" uid="uid://f5m4hnhw8vu1" path="res://tscn/wall.tscn" id="1_c7s6e"]
+
+[node name="map" type="Node2D" unique_id=127303641]
+
+[node name="wall" parent="." unique_id=1324901460 instance=ExtResource("1_c7s6e")]
+position = Vector2(521, 518)
+scale = Vector2(10.52, 1.2380955)
+
+[node name="wall2" parent="." unique_id=2129641213 instance=ExtResource("1_c7s6e")]
+position = Vector2(519, 391)
+scale = Vector2(1, 1.346666)
+
+[node name="wall3" parent="." unique_id=396110837 instance=ExtResource("1_c7s6e")]
+position = Vector2(731, 305)
+scale = Vector2(-1.176475, 3.0295308)
